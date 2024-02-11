@@ -2,12 +2,15 @@
 {
     public class Program
     {
+        /*
+            Autor: Ajnur Ademi
+            Datum: 12.02.2024
+        */
         static void Main(string[] args)
         {
             Console.WriteLine("Geben Sie 'start' ein, um das Auto zu starten:");
             Console.WriteLine("----------------------------------------------");
             string userInput = Console.ReadLine();
-
 
             if (userInput.ToLower() == "start")
             {
@@ -16,7 +19,7 @@
             }
             else
             {
-                Console.WriteLine("Das Auto wird nicht gestartet / Ungültige Eingabe.");
+                Console.WriteLine("Das Auto wird nicht gestartet / Ungültige Eingabe!");
             }
         }
     }
